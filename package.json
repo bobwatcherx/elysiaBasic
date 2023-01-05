@@ -6,10 +6,13 @@
     "dev": "bun run --hot src/index.ts"
   },
   "dependencies": {
+    "@elysiajs/cookie": "^0.1.0",
+    "@elysiajs/eden": "^0.2.0-rc.2",
     "elysia": "latest"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "nodemon": "^2.0.20"
   },
   "module": "src/index.js"
 }
